@@ -5,10 +5,10 @@ A modern, responsive personal portfolio website built using React.js to showcase
 ## 📸 Project Glimpse
 
 ### Desktop View
-<img width="1907" height="906" alt="image" src="https://github.com/TheAmanPandey/ToDo_Web-Application_Project/blob/main/assets/image1.png" />
+<img width="1907" height="906" alt="image" src="https://github.com/TheAmanPandey/Portfolio_Website_Project/blob/main/Images/readme-img1.png" />
 
 ### Mobile View
-<img width="1907" height="906" alt="image" src="https://github.com/TheAmanPandey/ToDo_Web-Application_Project/blob/main/assets/image2.png" />
+<img width="1907" height="906" alt="image" src="https://github.com/TheAmanPandey/Portfolio_Website_Project/blob/main/Images/readme-img2.png" />
 
 ## 🛠️ Tech Stack
 
