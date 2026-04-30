@@ -8,7 +8,7 @@ A modern, responsive personal portfolio website built using React.js to showcase
 <img width="1907" height="906" alt="image" src="https://github.com/TheAmanPandey/Portfolio_Website_Project/blob/main/Images/readme-img1.png" />
 
 ### Mobile View
-<img width="90" height="907" alt="image" src="https://github.com/TheAmanPandey/Portfolio_Website_Project/blob/main/Images/readme-img2.png" />
+<img width="110" height="1107" alt="image" src="https://github.com/TheAmanPandey/Portfolio_Website_Project/blob/main/Images/readme-img2.png" />
 
 ## 🛠️ Tech Stack
 
