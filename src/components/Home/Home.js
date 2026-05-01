@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.png";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
 import {
   AiFillGithub,
   AiFillInstagram,
