@@ -27,7 +27,7 @@ function Projects() {
               title="Skillforge AI: Career Intelligence Platform"
               description="This project is an AI-powered career intelligence platform built on real LinkedIn job postings. It goes beyond basic job search by identifying skill gaps, recommending learning resources, estimating time to acquire skills, and providing high-level labor market insights."
               ghLink="https://github.com/TheAmanPandey/Skillforge_Career-Intelligence-Platform_AI-NLP_Project"
-              //demoLink=""
+              demoLink="https://skillforge-career-intelligence-plat.vercel.app/"
             />
           </Col>
 
