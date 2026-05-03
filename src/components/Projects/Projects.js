@@ -7,6 +7,7 @@ import loginPage from "../../Assets/Projects/loginPage.png";
 import skillforge from "../../Assets/Projects/skillforge.png";
 import todo from "../../Assets/Projects/todo.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
+import osShedVis from "../../Assets/Projects/osProcessShedulingVisualizer.png";
 
 function Projects() {
   return (
@@ -32,12 +33,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={osShedVis}
+              isBlog={false}
+              title="OS Process Scheduling Visualizer"
+              description="An interactive web application for visualizing CPU scheduling algorithms including FCFS, SJF, Round Robin, and Priority Scheduling."
+              ghLink="https://github.com/TheAmanPandey/OS_Process_Sheduling_Visualizer_Project"
+              demoLink="https://processshedulingvisualizer.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={portfolio}
               isBlog={false}
               title="Portfolio Website"
               description="A modern, responsive personal portfolio website built using React.js to showcase my projects, technical skills, and experiences. This portfolio serves as a central hub to highlight my work, demonstrate my technical capabilities, and provide an easy way to connect."
               ghLink="https://github.com/TheAmanPandey/Skillforge_Career-Intelligence-Platform_AI-NLP_Project"
-              //demoLink=""
+              demoLink="https://amanpandey-ap.vercel.app/"
             />
           </Col>
 
