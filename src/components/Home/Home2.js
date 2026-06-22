@@ -13,10 +13,9 @@ function Home2() {
               LET ME <span className="amber"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              My name is Aman Pandey and I'm a BTech Computer Science & Engineering (CSE) with strong foundations in Data Structures & Algorithms, 
-              Full-Stack Web Development, Databases, and Applied Artificail Intelligence & Machine Learning, with a focus on Natural Language Processing (NLP).
-              <br /> 
-              I am passionate about exploring new technologies and building scalable, data-driven applications to solve real-world problems.
+              I'm Aman Pandey, a B.Tech Computer Science and Engineering student driven by curiosity and a passion for building innovative solutions. I enjoy learning new technologies, tackling challenging problems, and developing projects that create real-world impact. 
+              <br />
+              My goal is to grow as a software engineer while contributing to open-source projects.
               <br />
             </p>
           </Col>

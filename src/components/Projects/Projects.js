@@ -8,6 +8,7 @@ import skillforge from "../../Assets/Projects/skillforge.png";
 import todo from "../../Assets/Projects/todo.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import osShedVis from "../../Assets/Projects/osProcessShedulingVisualizer.png";
+import blogWeb from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -28,6 +29,17 @@ function Projects() {
               description="This project is an AI-powered career intelligence platform built on real LinkedIn job postings. It goes beyond basic job search by identifying skill gaps, recommending learning resources, estimating time to acquire skills, and providing high-level labor market insights."
               ghLink="https://github.com/TheAmanPandey/Skillforge_Career-Intelligence-Platform_AI-NLP_Project"
               demoLink="https://skillforge-career-intelligence-plat.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogWeb}
+              isBlog={false}
+              title="BlogSphere"
+              description="This project is a full-stack MERN blog publishing platform featuring secure authentication, Google OAuth, rich text editing, social networking features, and comprehensive admin controls."
+              ghLink="https://github.com/TheAmanPandey/Blog_Website_Project"
+              demoLink="https://blog-sphere-website.vercel.app/"
             />
           </Col>
 

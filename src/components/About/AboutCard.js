@@ -7,18 +7,19 @@ function SkillCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I’m proficient in 
-            <span className="purple"> Data Structures & Algorithm </span>
-            and core Computer Science fundamentals like 
-            <span className="purple"> Operating System (OS)</span>,
-            <span className="purple"> Database Management System (DBMS)</span>,
-            <span className="purple"> Computer Networks (CN)</span>,
-            <span className="purple"> Object Oriented Programming (OOPs), </span> etc.
+            I have a strong grasp of
+            <span className="purple"> Data Structures & Algorithms </span>
+            and fundamental Computer Science concepts, including 
+            <span className="purple"> Operating System</span>,
+            <span className="purple"> Database Management System</span>,
+            <span className="purple"> Computer Networks</span>,
+            <span className="purple"> Object-Oriented Programming, </span> etc.
             <br></br>
-            My key area of interest include
-            <span className="purple"> Web Development </span>and
-            <span className="purple"> Applied Artificial Intelligence & Machine Learning </span>with a focus on 
-            <span className="purple"> Natural Language Processing (NLP) </span>.
+            I am particularly passionate about
+            <span className="purple"> Full-Stack Web Development </span>and
+            <span className="purple"> Applied Artificial Intelligence & Machine Learning </span>specializing in 
+            <span className="purple"> Natural Language Processing (NLP) and Generative AI </span>.
+            My goal is to combine software engineering and artificial intelligence to create scalable, impactful, and user-centric solutions.
           </p>
         </blockquote>
       </Card.Body>
