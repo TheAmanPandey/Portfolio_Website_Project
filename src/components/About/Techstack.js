@@ -18,7 +18,7 @@ import CSS from "../../Assets/TechIcons/CSS.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import Linux from "../../Assets/TechIcons/Linux.svg";
 import LangChain from "../../Assets/TechIcons/LangChain.svg";
-import RAG from "../../Assets/TechIcons/RAG.svg";
+import RAG from "../../Assets/TechIcons/RAG.png";
 import VectorDB from "../../Assets/TechIcons/VectorDB.png";
 
 function Techstack() {
