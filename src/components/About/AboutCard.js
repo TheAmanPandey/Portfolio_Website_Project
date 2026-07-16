@@ -17,7 +17,7 @@ function SkillCard() {
             <br></br>
             I am particularly passionate about
             <span className="purple"> Full-Stack Web Development </span>and
-            <span className="purple"> Applied Artificial Intelligence & Machine Learning </span>specializing in 
+            <span className="purple"> Artificial Intelligence & Machine Learning </span>specializing in 
             <span className="purple"> Natural Language Processing (NLP) and Generative AI </span>.
             My goal is to combine software engineering and artificial intelligence to create scalable, impactful, and user-centric solutions.
           </p>

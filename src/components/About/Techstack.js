@@ -10,14 +10,16 @@ import Java from "../../Assets/TechIcons/Java.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import ML from "../../Assets/TechIcons/ML.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
-import NLP from "../../Assets/TechIcons/NLP.svg";
+import Hug from "../../Assets/TechIcons/Huggingface.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import HTML from "../../Assets/TechIcons/HTML.svg";
 import CSS from "../../Assets/TechIcons/CSS.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import Linux from "../../Assets/TechIcons/Linux.svg";
-import GenAI from "../../Assets/TechIcons/GenAI.svg";
+import LangChain from "../../Assets/TechIcons/LangChain.svg";
+import RAG from "../../Assets/TechIcons/RAG.svg";
+import VectorDB from "../../Assets/TechIcons/VectorDB.png";
 
 function Techstack() {
   return (
@@ -80,19 +82,27 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={ML} alt="ai/ml" />
-        <div className="tech-icons-text">Machine Learning</div>
+        <div className="tech-icons-text">scikit-learn</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={NLP} alt="nlp" />
-        <div className="tech-icons-text">Natural Language Processing</div>
+        <img src={Hug} alt="nlp" />
+        <div className="tech-icons-text">HuggingFace Transformers</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={GenAI} alt="GenAI" />
-        <div className="tech-icons-text">Generative Artificial Intelligence</div>
+        <img src={LangChain} alt="GenAI" />
+        <div className="tech-icons-text">LangChain</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={RAG} alt="GenAI" />
+        <div className="tech-icons-text">RAG</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={VectorDB} alt="GenAI" />
+        <div className="tech-icons-text">Vector Database (ChromaDB)</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={SQL} alt="SQL" />
-        <div className="tech-icons-text">Oracle (SQL)</div>
+        <div className="tech-icons-text">Oracle (PL/SQL)</div>
       </Col>
     </Row>
   );
