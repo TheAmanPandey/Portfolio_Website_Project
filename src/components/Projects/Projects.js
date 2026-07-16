@@ -9,6 +9,7 @@ import todo from "../../Assets/Projects/todo.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import osShedVis from "../../Assets/Projects/osProcessShedulingVisualizer.png";
 import blogWeb from "../../Assets/Projects/blog.png";
+import wisdomAI from "../../Assets/Projects/wisdomAI.png";
 
 function Projects() {
   return (
@@ -23,12 +24,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={skillforge}
+              imgPath={wisdomAI}
               isBlog={false}
-              title="Skillforge AI: Career Intelligence Platform"
-              description="This project is an AI-powered career intelligence platform built on real LinkedIn job postings. It goes beyond basic job search by identifying skill gaps, recommending learning resources, estimating time to acquire skills, and providing high-level labor market insights."
-              ghLink="https://github.com/TheAmanPandey/Skillforge_Career-Intelligence-Platform_AI-NLP_Project"
-              demoLink="https://skillforge-career-intelligence-plat.vercel.app/"
+              title="WisdomAI: A Wikipedia Companion Chatbot"
+              description="A Wikipedia-grounded RAG chatbot built with LangChain, HuggingFace, and Chroma. Scrapes live Wikipedia content, embeds it with sentence-transformers, and answers questions using Qwen/Qwen2.5-7B-Instruct — all served through an interactive Streamlit UI."
+              ghLink="https://github.com/TheAmanPandey/WisdomAI_A-Wikipedia-Companion-Chatbot_Project"
+              demoLink="https://wisdomaia-wikipedia-companion-chatbot.streamlit.app/"
             />
           </Col>
 
@@ -36,10 +37,10 @@ function Projects() {
             <ProjectCard
               imgPath={blogWeb}
               isBlog={false}
-              title="BlogSphere"
+              title="TELL"
               description="This project is a full-stack MERN blog publishing platform featuring secure authentication, Google OAuth, rich text editing, social networking features, and comprehensive admin controls."
               ghLink="https://github.com/TheAmanPandey/Blog_Website_Project"
-              demoLink="https://blog-sphere-website.vercel.app/"
+              demoLink="https://tell-blog-website.vercel.app/"
             />
           </Col>
 
@@ -73,6 +74,17 @@ function Projects() {
               description="A modern, full-featured To-Do application built with Node.js, Express, and a beautiful HTML/CSS frontend. This project is perfect for beginners who want to learn about full-stack web development without a database (data is stored in JSON files for simplicity)."
               ghLink="https://github.com/TheAmanPandey/ToDo_Web-Application_Project"
               demoLink="https://to-do-web-application-project.vercel.app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={skillforge}
+              isBlog={false}
+              title="Skillforge AI: Career Intelligence Platform"
+              description="This project is an AI-powered career intelligence platform built on real LinkedIn job postings. It goes beyond basic job search by identifying skill gaps, recommending learning resources, estimating time to acquire skills, and providing high-level labor market insights."
+              ghLink="https://github.com/TheAmanPandey/Skillforge_Career-Intelligence-Platform_AI-NLP_Project"
+              demoLink="https://skillforge-career-intelligence-plat.vercel.app/"
             />
           </Col>
 
